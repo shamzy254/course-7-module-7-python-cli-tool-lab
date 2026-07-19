@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python CLI Task Manager</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 2rem;
+        background: #f5f7fb;
+        color: #1f2937;
+      }
+      main {
+        max-width: 700px;
+        margin: 0 auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      }
+      code {
+        background: #eef2ff;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+      }
+      .commands {
+        background: #111827;
+        color: #f9fafb;
+        padding: 1rem;
+        border-radius: 8px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Python CLI Task Manager</h1>
+      <p>This project demonstrates a modular Python command-line application built with <code>argparse</code> and object-oriented classes.</p>
+      <h2>Try it locally</h2>
+      <div class="commands">
+        <pre><code>python -m lib.cli_tool add-task Alice "Write unit tests"
+python -m lib.cli_tool complete-task Alice "Write unit tests"</code></pre>
+      </div>
+      <p>The CLI supports adding tasks for users and marking those tasks as complete with helpful terminal feedback.</p>
+    </main>
+  </body>
+</html>
